@@ -11,6 +11,8 @@ jobs:
     steps:
     - name: CLA Assistant GitHub Actions
       uses: cla-assistant/github-action@v1.2.0-alpha
+      env: 
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         # Optional functionality to store all the blockchain signatures in the ethirium blockchain as a smart contract
         blockchain-storage-flag: false
