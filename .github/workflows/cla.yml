@@ -18,6 +18,7 @@ jobs:
         # Optional functionality to store all the blockchain signatures in the ethirium blockchain as a smart contract
         blockchain-storage-flag: false
         path-To-cladocument: 'https://github.com/Andreas-Maier/test/blob/master/cla-md'
+        path-to-signatures: 'signatures/version1/cla.json'
 
 
 
